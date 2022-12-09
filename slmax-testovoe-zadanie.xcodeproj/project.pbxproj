@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		1F00CCDA293A093400F9D5F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00CCD9293A093400F9D5F8 /* AppDelegate.swift */; };
 		1F00CCDC293A093400F9D5F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00CCDB293A093400F9D5F8 /* SceneDelegate.swift */; };
-		1F00CCDE293A093400F9D5F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00CCDD293A093400F9D5F8 /* ViewController.swift */; };
+		1F00CCDE293A093400F9D5F8 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00CCDD293A093400F9D5F8 /* NotesViewController.swift */; };
 		1F00CCE1293A093400F9D5F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F00CCDF293A093400F9D5F8 /* Main.storyboard */; };
-		1F00CCE4293A093400F9D5F8 /* slmax_testovoe_zadanie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F00CCE2293A093400F9D5F8 /* slmax_testovoe_zadanie.xcdatamodeld */; };
 		1F00CCE6293A093600F9D5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F00CCE5293A093600F9D5F8 /* Assets.xcassets */; };
 		1F00CCE9293A093600F9D5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F00CCE7293A093600F9D5F8 /* LaunchScreen.storyboard */; };
+		1F00CCF2293A0F8100F9D5F8 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F00CCF1293A0F8100F9D5F8 /* Raleway-SemiBold.ttf */; };
+		1F00CCF4293A0FA200F9D5F8 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F00CCF3293A0FA200F9D5F8 /* Raleway-Light.ttf */; };
+		1F00CD05293A201100F9D5F8 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00CD04293A201100F9D5F8 /* Storage.swift */; };
+		1F23C3FD2940B548006651B7 /* slmax_testovoe_zadanie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C3FB2940B548006651B7 /* slmax_testovoe_zadanie.xcdatamodeld */; };
+		1F23C3FF2940BFC2006651B7 /* NotesTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C3FE2940BFC2006651B7 /* NotesTableDataSource.swift */; };
+		1F23C4032940F090006651B7 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C4012940F090006651B7 /* NoteTableViewCell.swift */; };
+		1F23C4042940F090006651B7 /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F23C4022940F090006651B7 /* NoteTableViewCell.xib */; };
+		1F23C40629411870006651B7 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23C40529411870006651B7 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F00CCD6293A093400F9D5F8 /* slmax-testovoe-zadanie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "slmax-testovoe-zadanie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F00CCD9293A093400F9D5F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F00CCDB293A093400F9D5F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F00CCDD293A093400F9D5F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F00CCDD293A093400F9D5F8 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		1F00CCE0293A093400F9D5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1F00CCE3293A093400F9D5F8 /* slmax_testovoe_zadanie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = slmax_testovoe_zadanie.xcdatamodel; sourceTree = "<group>"; };
 		1F00CCE5293A093600F9D5F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F00CCE8293A093600F9D5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F00CCEA293A093600F9D5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F00CCF1293A0F8100F9D5F8 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		1F00CCF3293A0FA200F9D5F8 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		1F00CD04293A201100F9D5F8 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		1F23C3FC2940B548006651B7 /* slmax_testovoe_zadanie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = slmax_testovoe_zadanie.xcdatamodel; sourceTree = "<group>"; };
+		1F23C3FE2940BFC2006651B7 /* NotesTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableDataSource.swift; sourceTree = "<group>"; };
+		1F23C4012940F090006651B7 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		1F23C4022940F090006651B7 /* NoteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteTableViewCell.xib; sourceTree = "<group>"; };
+		1F23C40529411870006651B7 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,79 @@
 		1F00CCD8293A093400F9D5F8 /* slmax-testovoe-zadanie */ = {
 			isa = PBXGroup;
 			children = (
-				1F00CCD9293A093400F9D5F8 /* AppDelegate.swift */,
-				1F00CCDB293A093400F9D5F8 /* SceneDelegate.swift */,
-				1F00CCDD293A093400F9D5F8 /* ViewController.swift */,
-				1F00CCDF293A093400F9D5F8 /* Main.storyboard */,
-				1F00CCE5293A093600F9D5F8 /* Assets.xcassets */,
-				1F00CCE7293A093600F9D5F8 /* LaunchScreen.storyboard */,
+				1F00CD03293A1FFD00F9D5F8 /* Storage */,
+				1F00CCFA293A148C00F9D5F8 /* NotesScene */,
+				1F00CCF5293A12AC00F9D5F8 /* App */,
+				1F00CCF7293A143D00F9D5F8 /* Extensions */,
+				1F00CCF6293A12E000F9D5F8 /* Resources */,
 				1F00CCEA293A093600F9D5F8 /* Info.plist */,
-				1F00CCE2293A093400F9D5F8 /* slmax_testovoe_zadanie.xcdatamodeld */,
 			);
 			path = "slmax-testovoe-zadanie";
+			sourceTree = "<group>";
+		};
+		1F00CCF0293A0F4A00F9D5F8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1F00CCF3293A0FA200F9D5F8 /* Raleway-Light.ttf */,
+				1F00CCF1293A0F8100F9D5F8 /* Raleway-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1F00CCF5293A12AC00F9D5F8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1F00CCD9293A093400F9D5F8 /* AppDelegate.swift */,
+				1F00CCDB293A093400F9D5F8 /* SceneDelegate.swift */,
+				1F00CCE7293A093600F9D5F8 /* LaunchScreen.storyboard */,
+				1F00CCDF293A093400F9D5F8 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1F00CCF6293A12E000F9D5F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F00CCE5293A093600F9D5F8 /* Assets.xcassets */,
+				1F23C3FB2940B548006651B7 /* slmax_testovoe_zadanie.xcdatamodeld */,
+				1F00CCF0293A0F4A00F9D5F8 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F00CCF7293A143D00F9D5F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F23C40529411870006651B7 /* TextView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F00CCFA293A148C00F9D5F8 /* NotesScene */ = {
+			isa = PBXGroup;
+			children = (
+				1F23C4002940F06D006651B7 /* Note Cell */,
+				1F23C3FE2940BFC2006651B7 /* NotesTableDataSource.swift */,
+				1F00CCDD293A093400F9D5F8 /* NotesViewController.swift */,
+			);
+			path = NotesScene;
+			sourceTree = "<group>";
+		};
+		1F00CD03293A1FFD00F9D5F8 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				1F00CD04293A201100F9D5F8 /* Storage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		1F23C4002940F06D006651B7 /* Note Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1F23C4012940F090006651B7 /* NoteTableViewCell.swift */,
+				1F23C4022940F090006651B7 /* NoteTableViewCell.xib */,
+			);
+			path = "Note Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +205,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F23C4042940F090006651B7 /* NoteTableViewCell.xib in Resources */,
 				1F00CCE9293A093600F9D5F8 /* LaunchScreen.storyboard in Resources */,
+				1F00CCF4293A0FA200F9D5F8 /* Raleway-Light.ttf in Resources */,
+				1F00CCF2293A0F8100F9D5F8 /* Raleway-SemiBold.ttf in Resources */,
 				1F00CCE6293A093600F9D5F8 /* Assets.xcassets in Resources */,
 				1F00CCE1293A093400F9D5F8 /* Main.storyboard in Resources */,
 			);
@@ -141,10 +221,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F00CCDE293A093400F9D5F8 /* ViewController.swift in Sources */,
+				1F00CCDE293A093400F9D5F8 /* NotesViewController.swift in Sources */,
 				1F00CCDA293A093400F9D5F8 /* AppDelegate.swift in Sources */,
+				1F23C3FD2940B548006651B7 /* slmax_testovoe_zadanie.xcdatamodeld in Sources */,
 				1F00CCDC293A093400F9D5F8 /* SceneDelegate.swift in Sources */,
-				1F00CCE4293A093400F9D5F8 /* slmax_testovoe_zadanie.xcdatamodeld in Sources */,
+				1F23C3FF2940BFC2006651B7 /* NotesTableDataSource.swift in Sources */,
+				1F23C4032940F090006651B7 /* NoteTableViewCell.swift in Sources */,
+				1F00CD05293A201100F9D5F8 /* Storage.swift in Sources */,
+				1F23C40629411870006651B7 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +381,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +390,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.atrohov.slmax-testovoe-zadanie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,8 +412,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +421,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.atrohov.slmax-testovoe-zadanie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -364,12 +454,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1F00CCE2293A093400F9D5F8 /* slmax_testovoe_zadanie.xcdatamodeld */ = {
+		1F23C3FB2940B548006651B7 /* slmax_testovoe_zadanie.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1F00CCE3293A093400F9D5F8 /* slmax_testovoe_zadanie.xcdatamodel */,
+				1F23C3FC2940B548006651B7 /* slmax_testovoe_zadanie.xcdatamodel */,
 			);
-			currentVersion = 1F00CCE3293A093400F9D5F8 /* slmax_testovoe_zadanie.xcdatamodel */;
+			currentVersion = 1F23C3FC2940B548006651B7 /* slmax_testovoe_zadanie.xcdatamodel */;
 			path = slmax_testovoe_zadanie.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
